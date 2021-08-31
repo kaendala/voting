@@ -1,0 +1,203 @@
+.card {
+  position: relative;
+  .hand {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.background.down {
+      background-color: rgba(var(--color-yellow-negative), 0.8);
+    }
+    &.background.up {
+      background-color: rgba(var(--color-green-positive), 0.8);
+    }
+    &.down {
+      transform: rotate(180deg);
+    }
+    img {
+      width: 53.4%;
+    }
+  }
+  .picture {
+    position: absolute;
+    img {
+      width: 100%;
+    }
+  }
+  .description {
+    color: var(--color-white);
+    position: absolute;
+    display: flex;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.0001) 0%,
+      #888888 19.79%,
+      #666666 50%,
+      rgba(51, 51, 51, 0.6) 71.88%
+    );
+    .votes {
+      .lastUpdated {
+        text-align: right;
+      }
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        .hand {
+          top: auto;
+          position: relative;
+        }
+        button {
+          background-color: rgba(48, 48, 48, 0.6);
+          color: var(--color-white);
+          border: 1px solid var(--color-white);
+          cursor: pointer;
+          &:disabled {
+            background-color: var(--color-darker-background);
+            cursor: not-allowed;
+          }
+        }
+        .selected {
+          border: 1px solid var(--color-white);
+        }
+      }
+      &.vote {
+        .hand {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+  &.list {
+    height: 170px;
+    width: 100%;
+    margin-bottom: 18px;
+    .hand {
+      width: 45px;
+      height: 45px;
+    }
+    .picture {
+      width: 24.28%;
+    }
+    .description {
+      height: 100%;
+      left: 4.15%;
+      padding-left: 19.37%;
+      width: 76.5%;
+      .contentName {
+        width: 69.3%;
+        .info {
+          width: 92.7%;
+        }
+      }
+      .votes {
+        width: 28.9%;
+        padding-right: 14px;
+        .lastUpdated {
+          margin-top: 8px;
+        }
+        .buttons {
+          margin-top: 17px;
+
+          button {
+            width: 135px;
+            height: 45px;
+          }
+        }
+      }
+    }
+    .statistics {
+      height: 54px;
+    }
+  }
+  &.grid {
+    height: 348px;
+    width: 31.64%;
+    margin-bottom: 27px;
+    .hand {
+      width: 30px;
+      height: 30px;
+      top: 41.1%;
+    }
+    .description {
+      display: block;
+      height: 71.4%;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      );
+      padding-top: 28.2%;
+      .contentName {
+        padding-left: 36px;
+        margin-top: 24%;
+        width: 85%;
+        position: relative;
+        .name {
+          line-height: 43px;
+          position: absolute;
+          bottom: 0;
+          margin-bottom: 11%;
+        }
+      }
+      .votes {
+        padding-right: 9.8%;
+        width: 44%;
+        position: absolute;
+        right: 0;
+        .lastUpdated {
+          margin-bottom: 12px;
+          h5 {
+            font-size: 12px;
+            line-height: 14.4px;
+            margin-top: 12px;
+          }
+        }
+        .buttons {
+          align-items: center;
+          button {
+            height: 36px;
+          }
+        }
+      }
+    }
+    h4 {
+      font-size: 15px;
+      line-height: 18px;
+    }
+    .statistics {
+      height: 36px;
+      h3 {
+        font-size: 18px;
+        line-height: 21.6px;
+      }
+    }
+  }
+  .statistics {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    .statistic {
+      display: flex;
+      align-items: center;
+      color: var(--color-white);
+      &.positive {
+        background-color: rgba(var(--color-green-positive), 0.6);
+        height: 100%;
+      }
+      &.negative {
+        background-color: rgba(var(--color-yellow-negative), 0.6);
+        height: 100%;
+        justify-content: flex-end;
+      }
+      .hand {
+        position: initial;
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
