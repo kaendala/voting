@@ -1,0 +1,72 @@
+.previousRuling {
+  position: relative;
+  h1 {
+    font-weight: 300;
+    margin: 36px 0;
+    color: var(--color-darker-gray);
+  }
+  .select {
+    width: 15.7%;
+    right: 0;
+    position: absolute;
+    height: 36px;
+    top: 19px;
+    outline: none;
+    .triangle {
+      border-top: 7px solid var(--color-darker-gray);
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent;
+    }
+    .react-select__control {
+      height: 100%;
+      border-radius: 0;
+      border: 2px solid var(--color-darker-gray);
+      box-shadow: none;
+      .react-select__value-container {
+        text-align: center;
+        .react-select__single-value {
+          width: 100%;
+          font-size: 13.5px;
+        }
+      }
+
+      .react-select__indicators {
+        .react-select__indicator-separator {
+          display: none;
+        }
+        .react-select__dropdown-indicator {
+          padding-right: 15px;
+        }
+      }
+    }
+
+    .react-select__menu {
+      margin-top: 0;
+      .react-select__menu-list {
+        padding: 0;
+      }
+      .react-select__option {
+        font-size: 13px;
+        border: 2px solid var(--color-darker-gray);
+        border-top: none;
+        text-align: center;
+        &:first-child {
+          border-top: 2px solid var(--color-darker-gray);
+        }
+      }
+      .react-select__option--is-selected {
+        background-color: var(--color-darker-gray);
+      }
+    }
+  }
+  .cardsContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &.grid {
+    .cardsContainer {
+      gap: 0 27px;
+    }
+  }
+}
