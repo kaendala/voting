@@ -37,7 +37,12 @@ const Card = ({ person, sort, changeVotes }) => {
         ? ""
         : difdt.toISOString().slice(0, 4) - 1970 + " year ago";
     if (!date) {
-      date = date === "" ? difdt.getMonth() + 1 + " months ago" : "";
+      date =
+        date === ""
+          ? difdt.getMonth()
+            ? difdt.getMonth() + " months ago"
+            : ""
+          : "";
     }
     if (!date) {
       date = date === "" ? difdt.getDate() + " days ago" : "";

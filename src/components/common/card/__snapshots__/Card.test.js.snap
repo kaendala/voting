@@ -1,0 +1,599 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Card component should load component Card  sort grid 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card grid"
+      >
+        <div
+          class="hand background up"
+        >
+          <img
+            alt="hand"
+            src="http://localhost:3000/assets/img/thumbs-up.svg"
+          />
+        </div>
+        <div
+          class="picture"
+        >
+          <img
+            alt="picturePerson"
+            src="/assets/img/people/malalaG.png"
+          />
+        </div>
+        <div
+          class="description"
+        >
+          <div
+            class="contentName"
+          >
+            <h2
+              class="name"
+            >
+              Malala Yousafzai
+            </h2>
+            <h4
+              class="info"
+            >
+              The daughter of educational activist Ziauddin, Yousafzai was born to a Pashtun family in Mingora, Khyber Pakhtunkhwa, Pakistan. Her family came to run a chain of schools in the region.
+            </h4>
+          </div>
+          <div
+            class="votes noVote"
+          >
+            <div
+              class="lastUpdated"
+            >
+              <h5>
+                8 months ago in politics
+              </h5>
+            </div>
+            <div
+              class="buttons"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="hand background up"
+                >
+                  <img
+                    alt="hand"
+                    src="http://localhost:3000/assets/img/thumbs-up.svg"
+                  />
+                </div>
+              </div>
+              <div
+                class=""
+              >
+                <div
+                  class="hand background down"
+                >
+                  <img
+                    alt="hand"
+                    src="http://localhost:3000/assets/img/thumbs-up.svg"
+                  />
+                </div>
+              </div>
+              <button
+                disabled=""
+              >
+                Vote Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="statistics"
+        >
+          <div
+            class="statistic positive"
+            style="width: 85.7%;"
+          >
+            <div
+              class="hand up"
+            >
+              <img
+                alt="hand"
+                src="http://localhost:3000/assets/img/thumbs-up.svg"
+              />
+            </div>
+            <h3>
+              85.7%
+            </h3>
+          </div>
+          <div
+            class="statistic negative"
+            style="width: 14.3%;"
+          >
+            <h3>
+              14.3%
+            </h3>
+            <div
+              class="hand down"
+            >
+              <img
+                alt="hand"
+                src="http://localhost:3000/assets/img/thumbs-up.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card grid"
+    >
+      <div
+        class="hand background up"
+      >
+        <img
+          alt="hand"
+          src="http://localhost:3000/assets/img/thumbs-up.svg"
+        />
+      </div>
+      <div
+        class="picture"
+      >
+        <img
+          alt="picturePerson"
+          src="/assets/img/people/malalaG.png"
+        />
+      </div>
+      <div
+        class="description"
+      >
+        <div
+          class="contentName"
+        >
+          <h2
+            class="name"
+          >
+            Malala Yousafzai
+          </h2>
+          <h4
+            class="info"
+          >
+            The daughter of educational activist Ziauddin, Yousafzai was born to a Pashtun family in Mingora, Khyber Pakhtunkhwa, Pakistan. Her family came to run a chain of schools in the region.
+          </h4>
+        </div>
+        <div
+          class="votes noVote"
+        >
+          <div
+            class="lastUpdated"
+          >
+            <h5>
+              8 months ago in politics
+            </h5>
+          </div>
+          <div
+            class="buttons"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="hand background up"
+              >
+                <img
+                  alt="hand"
+                  src="http://localhost:3000/assets/img/thumbs-up.svg"
+                />
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class="hand background down"
+              >
+                <img
+                  alt="hand"
+                  src="http://localhost:3000/assets/img/thumbs-up.svg"
+                />
+              </div>
+            </div>
+            <button
+              disabled=""
+            >
+              Vote Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="statistics"
+      >
+        <div
+          class="statistic positive"
+          style="width: 85.7%;"
+        >
+          <div
+            class="hand up"
+          >
+            <img
+              alt="hand"
+              src="http://localhost:3000/assets/img/thumbs-up.svg"
+            />
+          </div>
+          <h3>
+            85.7%
+          </h3>
+        </div>
+        <div
+          class="statistic negative"
+          style="width: 14.3%;"
+        >
+          <h3>
+            14.3%
+          </h3>
+          <div
+            class="hand down"
+          >
+            <img
+              alt="hand"
+              src="http://localhost:3000/assets/img/thumbs-up.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test for Card component should load component Card sort list  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card list"
+      >
+        <div
+          class="hand background down"
+        >
+          <img
+            alt="hand"
+            src="http://localhost:3000/assets/img/thumbs-up.svg"
+          />
+        </div>
+        <div
+          class="picture"
+        >
+          <img
+            alt="picturePerson"
+            src="/assets/img/people/kanye.png"
+          />
+        </div>
+        <div
+          class="description"
+        >
+          <div
+            class="contentName"
+          >
+            <h2
+              class="name"
+            >
+              Kanye West
+            </h2>
+            <h4
+              class="info"
+            >
+              Born in Atlanta and raised in Chicago, West was first known as a producer for Roc-A-Fella Records in the early 2000s, producing singles for several mainstream artists.
+            </h4>
+          </div>
+          <div
+            class="votes noVote"
+          >
+            <div
+              class="lastUpdated"
+            >
+              <h5>
+                1 year ago in entertainment
+              </h5>
+            </div>
+            <div
+              class="buttons"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="hand background up"
+                >
+                  <img
+                    alt="hand"
+                    src="http://localhost:3000/assets/img/thumbs-up.svg"
+                  />
+                </div>
+              </div>
+              <div
+                class=""
+              >
+                <div
+                  class="hand background down"
+                >
+                  <img
+                    alt="hand"
+                    src="http://localhost:3000/assets/img/thumbs-up.svg"
+                  />
+                </div>
+              </div>
+              <button
+                disabled=""
+              >
+                Vote Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="statistics"
+        >
+          <div
+            class="statistic positive"
+            style="width: 39.0%;"
+          >
+            <div
+              class="hand up"
+            >
+              <img
+                alt="hand"
+                src="http://localhost:3000/assets/img/thumbs-up.svg"
+              />
+            </div>
+            <h3>
+              39.0%
+            </h3>
+          </div>
+          <div
+            class="statistic negative"
+            style="width: 61.0%;"
+          >
+            <h3>
+              61.0%
+            </h3>
+            <div
+              class="hand down"
+            >
+              <img
+                alt="hand"
+                src="http://localhost:3000/assets/img/thumbs-up.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card list"
+    >
+      <div
+        class="hand background down"
+      >
+        <img
+          alt="hand"
+          src="http://localhost:3000/assets/img/thumbs-up.svg"
+        />
+      </div>
+      <div
+        class="picture"
+      >
+        <img
+          alt="picturePerson"
+          src="/assets/img/people/kanye.png"
+        />
+      </div>
+      <div
+        class="description"
+      >
+        <div
+          class="contentName"
+        >
+          <h2
+            class="name"
+          >
+            Kanye West
+          </h2>
+          <h4
+            class="info"
+          >
+            Born in Atlanta and raised in Chicago, West was first known as a producer for Roc-A-Fella Records in the early 2000s, producing singles for several mainstream artists.
+          </h4>
+        </div>
+        <div
+          class="votes noVote"
+        >
+          <div
+            class="lastUpdated"
+          >
+            <h5>
+              1 year ago in entertainment
+            </h5>
+          </div>
+          <div
+            class="buttons"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="hand background up"
+              >
+                <img
+                  alt="hand"
+                  src="http://localhost:3000/assets/img/thumbs-up.svg"
+                />
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class="hand background down"
+              >
+                <img
+                  alt="hand"
+                  src="http://localhost:3000/assets/img/thumbs-up.svg"
+                />
+              </div>
+            </div>
+            <button
+              disabled=""
+            >
+              Vote Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="statistics"
+      >
+        <div
+          class="statistic positive"
+          style="width: 39.0%;"
+        >
+          <div
+            class="hand up"
+          >
+            <img
+              alt="hand"
+              src="http://localhost:3000/assets/img/thumbs-up.svg"
+            />
+          </div>
+          <h3>
+            39.0%
+          </h3>
+        </div>
+        <div
+          class="statistic negative"
+          style="width: 61.0%;"
+        >
+          <h3>
+            61.0%
+          </h3>
+          <div
+            class="hand down"
+          >
+            <img
+              alt="hand"
+              src="http://localhost:3000/assets/img/thumbs-up.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

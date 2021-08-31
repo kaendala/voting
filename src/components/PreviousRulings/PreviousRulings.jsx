@@ -30,6 +30,9 @@ const PreviousRulings = () => {
     if (dimension.device === "mobile") {
       setSort("grid");
     }
+    if (dimension.device !== "mobile") {
+      setSort("list");
+    }
   }, [dimension]);
   const CreateArrow = () => {
     return <span className="triangle"></span>;
