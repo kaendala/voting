@@ -1,9 +1,10 @@
 import './App.css';
-import Banner from './components/Banner';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import NavBar from './components/Navbar';
-import SecondBanner from './components/SecondBanner';
+import Banner from './components/common/Banner';
+import Footer from './components/common/Footer';
+import Header from './components/common/Header';
+import NavBar from './components/common/Navbar';
+import PreviousRulings from './components/PreviousRulings/PreviousRulings';
+import SecondBanner from './components/common/SecondBanner';
 
 function App() {
   return (
@@ -12,9 +13,7 @@ function App() {
       <Header></Header>
       <div className="max-centered">
         <Banner></Banner>
-        <main role="main">
-        👉 Your code goes here 👈
-        </main>
+        <PreviousRulings></PreviousRulings>
         <SecondBanner></SecondBanner>
         <hr></hr>
         <Footer></Footer>
