@@ -71,15 +71,8 @@ const Card = ({ person, sort, changeVotes }) => {
       </div>
       <div className="description">
         <div className="contentName">
-          <h2 className="name">
-            {person.name.length > 20
-              ? `${person.name.substring(0, 21)}...`
-              : person.name}
-          </h2>
-          <h4 className="info">{`${person.description.substring(
-            0,
-            75
-          )}...`}</h4>
+          <h2 className="name">{person.name}</h2>
+          <h4 className="info">{person.description}</h4>
         </div>
         <div className={"votes " + (currentVote ? "vote" : "noVote")}>
           <div className="lastUpdated">

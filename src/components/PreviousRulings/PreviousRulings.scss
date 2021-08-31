@@ -1,17 +1,20 @@
 .previousRuling {
   position: relative;
+  padding: 0;
+  width: 100%;
   h1 {
     font-weight: 300;
-    margin: 36px 0;
+    margin: 0 0 36px;
     color: var(--color-darker-gray);
   }
   .select {
     width: 15.7%;
-    right: 0;
+    right: 2%;
     position: absolute;
     height: 36px;
     top: 19px;
     outline: none;
+    z-index: 2;
     .triangle {
       border-top: 7px solid var(--color-darker-gray);
       border-right: 6px solid transparent;
@@ -44,8 +47,10 @@
       margin-top: 0;
       .react-select__menu-list {
         padding: 0;
+        margin-top: 0;
       }
       .react-select__option {
+        height: 30px;
         font-size: 13px;
         border: 2px solid var(--color-darker-gray);
         border-top: none;
@@ -55,7 +60,8 @@
         }
       }
       .react-select__option--is-selected {
-        background-color: var(--color-darker-gray);
+        background-color: var(--color-white);
+        color: var(--color-darker-gray);
       }
     }
   }
@@ -66,7 +72,26 @@
   }
   &.grid {
     .cardsContainer {
-      gap: 0 27px;
+      gap: 0 2.2%;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .previousRuling {
+    padding: 0 2%;
+    width: 96%;
+    h1 {
+      margin: 28px 0;
+    }
+    .select {
+      top: 0;
+      height: 28px;
+      .react-select__control {
+        min-height: auto;
+      }
+      .react-select__value-container {
+        padding: 0 8px;
+      }
     }
   }
 }
