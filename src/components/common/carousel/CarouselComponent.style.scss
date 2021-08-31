@@ -1,0 +1,17 @@
+.containerCarousel {
+  position: relative;
+  .contentList {
+    overflow: hidden;
+    width: 99%;
+    .carousels {
+      display: inline-flex;
+      padding: 0;
+      transition: 1.5s;
+      position: relative;
+      .element {
+        width: 80vw;
+        margin-right: 4vw;
+      }
+    }
+  }
+}
